@@ -17,6 +17,7 @@
 		DE7CF14C24982C2600F19FED /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7CF14B24982C2600F19FED /* Video.swift */; };
 		DE7CF14E24982C6800F19FED /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7CF14D24982C6800F19FED /* Model.swift */; };
 		DE7CF150249919EC00F19FED /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7CF14F249919EC00F19FED /* Response.swift */; };
+		DE7CF1522499264900F19FED /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7CF1512499264900F19FED /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		DE7CF14B24982C2600F19FED /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		DE7CF14D24982C6800F19FED /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DE7CF14F249919EC00F19FED /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		DE7CF1512499264900F19FED /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				DE7CF14B24982C2600F19FED /* Video.swift */,
 				DE7CF14D24982C6800F19FED /* Model.swift */,
 				DE7CF14F249919EC00F19FED /* Response.swift */,
+				DE7CF1512499264900F19FED /* ConstantsTemplate.swift */,
 			);
 			path = "youtube-build";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 				DE7CF13A2497B9B600F19FED /* ViewController.swift in Sources */,
 				DE7CF1362497B9B600F19FED /* AppDelegate.swift in Sources */,
 				DE7CF1382497B9B600F19FED /* SceneDelegate.swift in Sources */,
+				DE7CF1522499264900F19FED /* ConstantsTemplate.swift in Sources */,
 				DE7CF14E24982C6800F19FED /* Model.swift in Sources */,
 				DE7CF14A24982ABA00F19FED /* Constants.swift in Sources */,
 				DE7CF14C24982C2600F19FED /* Video.swift in Sources */,
