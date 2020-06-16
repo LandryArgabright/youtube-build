@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, ModelDelegate {
 
+    //@IBOutlet weak var TableView: UITableView!
     @IBOutlet weak var TableView: UITableView!
     
     
@@ -59,13 +60,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = TableView.dequeueReusableCell(withIdentifier: Constants.VideoCell_ID, for: indexPath)
+        let cell = TableView.dequeueReusableCell(withIdentifier: Constants.VideoCell_ID, for: indexPath) as! VideoTableViewCell
         
         // Configure cell with data
-        // Get the title for video being requested
-        let title = self.videos[indexPath.row].title
-        
-        cell.textLabel?.text = title
+        let video = self.videos[indexPath.row]
+        cell.setCell(video)
         
         // Return the cell
         return cell
